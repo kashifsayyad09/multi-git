@@ -6,7 +6,7 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Welcome to my Go server!")
+    fmt.Fprintf(w, "Welcome to my ec2 server!")
 }
 
 func main() {
